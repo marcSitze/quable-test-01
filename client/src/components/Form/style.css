@@ -1,0 +1,25 @@
+.form__container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.form__content {
+  border: 1px solid;
+  width: 80%;
+  background-color: white;
+}
+input {
+  flex: 1;
+  width: 80%;
+  margin: 5px 0;
+  height: 35px;
+}
+.title {
+  width: 20%;
+}
