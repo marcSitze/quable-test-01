@@ -6,7 +6,7 @@ import Spinner from './components/Spinner';
 import { productsContext } from './context/products/productsContext'
 
 function App() {
-  const [showForm, setShowForm] = useState(true)
+  const [showForm, setShowForm] = useState(false)
   const { products, getProducts, loading, creating, deleting } = useContext(productsContext)
 
   useEffect(() => {
