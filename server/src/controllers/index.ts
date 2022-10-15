@@ -7,7 +7,7 @@ import { ResponseObj, Product, IProduct, IError } from '../common/helper';
 const headers = {
   Accept: "application/json",
   "Content-Type": "application/json",
-  "X-Shopify-Access-Token": ACCESS_TOKEN,
+  "X-Shopify-Access-Token": ACCESS_TOKEN ?? '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',
 }
 
 export const getProducts = async (req: Request, res: Response) => {
